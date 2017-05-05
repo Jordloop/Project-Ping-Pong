@@ -9,6 +9,9 @@ var foo = function(gameLength){
       oneToUserInput.push(i);
     }//nested for loop
     console.log(oneToUserInput);
+  for (i = 1; i <= oneToUserInput.length; i += 1) {
+    console.log("current index it: " + i);
+  }
     return gameLength
   }//main if/else
 }//gameLength function
