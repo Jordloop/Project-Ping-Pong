@@ -2,9 +2,9 @@
 
 # Specs
 ## 1. Receive userInput
-* Collect userInput.
-* Parse userInput to num.
-* Clear output.
+* Collect userInput.√
+* Parse userInput to num.√
+* Clear output.√
 * Display userInput.
 * Test userInput (userInput === number // true)
 * Display "Please user numbers only" if userInput != number.
