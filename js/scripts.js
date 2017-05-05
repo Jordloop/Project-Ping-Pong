@@ -7,5 +7,5 @@ $(document).ready(function(){
   var output = // call function here;
   $("#output").empty();
   $("#output").append("userInput = " + userInput);
-  });
+  }); 
 });
