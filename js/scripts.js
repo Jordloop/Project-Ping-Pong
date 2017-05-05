@@ -10,12 +10,12 @@ var mainFunction = function(numInput){
       oneToUserInput.push(i);
     };
   for (i = 1; i <= oneToUserInput.length; i += 1) { // Checks divisiblility.
-    if (i % 3 === 0) { // If i is divisible by 3 it passes through here.
-      oneToUserInput.splice(i - 1, 1, "<li> Ping </li>");
+    if (i % 15 === 0) { // If i is divisible by 15 it passes through here.
+      oneToUserInput.splice(i - 1, 1, "<li> Ping-Pong </li>");
     } else if (i % 5 === 0) { // If i is divisible by 5 it passes through here.
       oneToUserInput.splice(i - 1, 1, "<li> Pong </li>");
-    } else if (i % 10 === 0) { // If i is divisible by 15 it passes through here.
-      oneToUserInput.splice(i - 1, 1, "<li> Pong-Pong </li>");
+    } else if (i % 3 === 0) { // If i is divisible by 3 it passes through here.
+      oneToUserInput.splice(i - 1, 1, "<li> Pong </li>");
     } else { //Everthing else passes through here.
       oneToUserInput.splice(i - 1, 1, "<li>" + i + "</li>");
     };
