@@ -8,14 +8,17 @@ var foo = function(gameLength){
     for (var i = 1; i <=  gameLength; i += 1) {
       oneToUserInput.push(i);
     }//for gameLength
-    console.log(oneToUserInput);
-  for (i = 1; i <= oneToUserInput.length; i += 1) {
+  for (i = 1; i <= oneToUserInput.length; i += 1) { //Adds "Ping", "Pong", "Ping-Pong"
     if (i % 3 === 0) {
       oneToUserInput.splice(i - 1, 1, "Ping");
-    };//for oneToUserInput
+    } else if (i % 5 === 0) {
+      oneToUserInput.splice(i - 1, 1, "Pong");
+    } else if (i % 10 === 0) {
+      oneToUserInput.splice(i - 1, 1, "Pong-Pong");
+    }//for oneToUserInput
   }
     console.log(oneToUserInput);
-    return gameLength
+    return oneToUserInput
   }//main if/else
 }//gameLength function
 
@@ -29,7 +32,8 @@ $(document).ready(function(){
   event.preventDefault();
   var userInput = parseInt($("#input").val());
   var output = foo(userInput)
+  $(console.log(output));
   $("#output").empty();
-  $("#output").append(output);
+  $("#output").append("<li>" + output + "<li>");
   });
 });
