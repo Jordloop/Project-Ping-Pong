@@ -9,19 +9,30 @@
     <title>Ping-Pong</title>
   </head>
   <body>
+
+    <h1  class="jumbotron">Ping-Pong</h1>
     <div class="container">
-      <h1  class="jumbotron">Ping-Pong</h1>
       <div class="row">
-        <div class="col-md-3 left">
+        <div class="col-md-3" id="left">
+          <div class="container">
+
+            <h4>About Ping Pong</h4>
+            <h5><strong>Created by:</strong></h5>
+            <span>Jordan Loop</span>
+            <h5><strong>GitHub Username/URL:</strong></h5>
+            <span><a href="https://github.com/Jordloop">JordLoop</a></span>
+            <h5><strong>Level 2 Test for:</strong></h5>
+            <span>JavaScript</span>
+          </div>
 
         </div>
-        <div class="col-md-6 well">
+        <div class="col-md-6">
           <h3>Lets play!</h3>
           <h5>Rules:</h5>
           <ol>
-            <li>Numvers divisible by 3 become 'Ping'.</li>
-            <li>Numvers divisible by 5 become 'Pong'.</li>
-            <li>Numvers divisible by 15 become 'Ping-Pong'.</li>
+            <li>Numbers divisible by 3 become 'Ping'.</li>
+            <li>Numbers divisible by 5 become 'Pong'.</li>
+            <li>Numbers divisible by 15 become 'Ping-Pong'.</li>
           </ol>
           <form class="form-group form-inline" id="userForm" action="index.html" method="post">
             <label for="aNumber">Number:</label>
@@ -30,7 +41,7 @@
           </form>
 
           <div></div>
-          <ul id="output"5>
+          <ul id="output">
           </ul>
         </div>
         <div class="col-md-3 right">

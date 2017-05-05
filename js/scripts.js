@@ -13,7 +13,7 @@ var mainFunction = function(numInput){
     if (i % 15 === 0) { // If i is divisible by 15 it passes through here.
       oneToUserInput.splice(i - 1, 1, "<li> Ping-Pong </li>");
     } else if (i % 5 === 0) { // If i is divisible by 5 it passes through here.
-      oneToUserInput.splice(i - 1, 1, "<li> Pong </li>");
+      oneToUserInput.splice(i - 1, 1, "<li> Ping </li>");
     } else if (i % 3 === 0) { // If i is divisible by 3 it passes through here.
       oneToUserInput.splice(i - 1, 1, "<li> Pong </li>");
     } else { //Everthing else passes through here.

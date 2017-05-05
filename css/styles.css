@@ -1,8 +1,44 @@
 
+html {
+  height: 100%
+}
+
 body{
-  background-color: tan;
+  background-color: #ced5e0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
 }
+
+.jumbotron{
+  background-color: #edddb4;
+}
+
+.row {
+  height: 100%;
+
+}
+
+.container {
+  height: 100%;
+}
+
+ #left {
+   height: 100%;
+   background-color: #76ad74;
+   margin-right: 25px;
+
+ }
+
+ strong {
+   color: tan;
+ }
+
+ span {
+   color: white;
+   text-decoration-style: none;
+ }
