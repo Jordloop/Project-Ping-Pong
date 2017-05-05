@@ -15,6 +15,6 @@
 * c. Each iteration appends current index to array.√
 
 ## 3. Loop to splice array
-* a. Loop through oneToUserInput.
-* b. Find each element in oneToUserInput where element % (3, 5, 15) = 0.
-* c. Each found element splice in ('ping', 'pong', 'ping-pong') if element = (3, 5, 15).
+* a. Loop through oneToUserInput.√
+* b. Find each element in oneToUserInput where element % (3, 5, 15) = 0.√
+* c. Each found element splice in ('ping', 'pong', 'ping-pong') if element = (3, 5, 15).√
