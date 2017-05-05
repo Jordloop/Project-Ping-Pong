@@ -7,11 +7,14 @@ var foo = function(gameLength){
   } else {
     for (var i = 1; i <=  gameLength; i += 1) {
       oneToUserInput.push(i);
-    }//nested for loop
+    }//for gameLength
     console.log(oneToUserInput);
   for (i = 1; i <= oneToUserInput.length; i += 1) {
-    console.log("current index it: " + i);
+    if (i % 3 === 0) {
+      oneToUserInput.splice(i - 1, 1, "Ping");
+    };//for oneToUserInput
   }
+    console.log(oneToUserInput);
     return gameLength
   }//main if/else
 }//gameLength function
